@@ -1,27 +1,27 @@
 {
-  "name": "lzfse",
-  "version": "0.0.0",
+  "name": "node-lzfse",
+  "version": "1.0.0",
   "description": "Bindings for the LZFSE compression library.",
   "main": "lzfse.js",
   "scripts": {
     "test": "jest",
-    "install": "node-gyp rebuild",
+    "install": "git submodule init && git submodule update && node-gyp rebuild",
     "gyp": "node-gyp"
   },
-  "author": "Roald Hacquebord <roald@hacquebordbuckles.nl>",
+  "author": "Sehelitar <github@sehelitar.tv>",
   "license": "MIT",
   "gypfile": true,
   "devDependencies": {
-    "eslint": "^4.19.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "jest": "^24.9.0",
-    "node-gyp": "^6.0.1"
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "jest": "^29.3.1",
+    "node-gyp": "^9.3.1"
   },
   "dependencies": {
     "bindings": "^1.5.0",
-    "nan": "^2.14.0"
+    "nan": "^2.17.0"
   },
   "jest": {
     "testEnvironment": "node",
