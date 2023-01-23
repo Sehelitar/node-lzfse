@@ -1,6 +1,6 @@
 {
   "name": "node-lzfse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bindings for the LZFSE compression library.",
   "main": "lzfse.js",
   "scripts": {
@@ -8,6 +8,19 @@
     "install": "node-gyp rebuild",
     "gyp": "node-gyp"
   },
+  "files": [
+    "__tests__",
+    "lzfse",
+    "src",
+    ".editorconfig",
+    ".eslintrc",
+    ".gitmodules",
+    "binding.gyp",
+    "lzfse.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "types": "./src/lzfse.d.ts",
   "author": "Sehelitar <github@sehelitar.tv>",
   "license": "MIT",
   "gypfile": true,
